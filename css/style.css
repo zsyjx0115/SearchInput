@@ -1,0 +1,93 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-color: #333;
+}
+input,select,button{
+	outline: none;
+}
+.bg-div{
+	position: relative;
+	width: 98%;
+	height: 100%;
+	margin: 0 auto;
+	background: url("image/bing-bg.jpg") center no-repeat;
+}
+.search{
+	position: absolute;
+	left: 100px;
+	top: 110px;
+    width: 700px;
+	height: 53px;
+    clear: both;
+    z-index: 999;
+}
+.search .logo{
+	width: 107px;
+	height: 53px;
+	background-image: url("image/logo.png");
+	float: left;
+}
+.search form{
+	margin-left: 10px;
+	background: #fff;
+	float: left;
+	height: 42px;
+	width: 552px;
+}
+#search-input{
+	width: 500px;
+	height: 36px;
+	margin: 3px 0px 3px 5px;
+	vertical-align: middle;
+	border: none;
+	font-size: 20px;
+}
+
+#search-input-submit{
+	width: 36px;
+	height: 36px;
+    margin: 3px 3px 3px 0px;	
+	background: #ffb900;
+	vertical-align: middle;   
+    border: none;
+    cursor: pointer;
+}
+#search-input-submit:active{
+	box-shadow: 1px 1px 2px #D09C11 inset;
+}
+#search-input-submit .submit-bg{
+	width: 26px;
+	height: 23px;
+	margin: 0 auto;
+	background: url("image/icons.png") no-repeat;
+	background-position: -224px -53px;
+}
+
+.intelligent{
+	position: absolute;
+	left: 217px;
+    top: 152px;
+    width: 552px;
+	border-top: 1px solid #ddd;
+	display: none;
+	z-index: 999;
+}
+.intelligent ul{
+	list-style: none;
+	background-color: #fff;
+}
+.intelligent ul li{
+	padding: 5px;
+	cursor: pointer;
+}
+.intelligent ul li:hover{
+	text-decoration: underline;
+	background-color: #e5e5e5;
+}
