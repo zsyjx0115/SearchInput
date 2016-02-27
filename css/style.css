@@ -18,6 +18,7 @@ input,select,button{
 	height: 100%;
 	margin: 0 auto;
 	background: url("image/bing-bg.jpg") center no-repeat;
+	background-size: cover;
 }
 .search{
 	position: absolute;
